@@ -6,17 +6,22 @@ h1{
 }
 
 .llwImg{
-  height: 550px;
-  width: 550px;
-  object-fit: cover;
+  height: 260px;
+  width: 500px;
+
 }
 
 .nwsImg{
-  height: 550px;
-  width: 550px;
+  height: 260px;
+  width: 600px;
   object-fit: cover;
 }
 
 .specialLink3{
   font-size: 20px;
+}
+
+.col-sm{
+  font-family: 'Bungee Shade';
+  color:#000000; 
 }

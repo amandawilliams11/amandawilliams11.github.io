@@ -1,0 +1,109 @@
+body{
+  background-color:#E4B1AB;
+}
+
+/*Home Page*/
+h1{
+  font-family: 'Bangers', cursive;
+  color:#DF7373;
+}
+
+/*flexbox */
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.centerLinks{
+  display: flex;
+  justify-content: center;
+}
+
+.even{
+  font-family: 'Paytone One', sans-serif;
+  color:#CC444B;
+  font-size: 50px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 0px;
+}
+
+.odd{
+  font-family: 'Paytone One', sans-serif;
+  color:#DF7373;
+  font-size: 50px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 0px;
+}
+
+/*Episode 1*/
+
+h2{
+  font-family: 'Paytone One', sans-serif;
+  font-size:40px;
+  color:#b76935;
+  padding-left: 2em;
+}
+
+h3{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 30px;
+  color:#935e38;
+  margin: auto;
+  width: 75%;
+  padding-top: 1.50em;
+  padding-bottom: 1em;
+
+}
+
+.art{
+   width: 700px;
+   height: 500px;
+   border: 10px solid pink;
+}
+
+.blurb{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 20px;
+  color:#935e38;
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+
+}
+
+/*Episode 2*/
+h4{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 30px;
+  color:#935e38;
+  margin: auto;
+  width: 74.5%;
+  padding-top: 1.50em;*/
+}
+
+/*Episode 3*/
+h5{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 30px;
+  color:#935e38;
+  margin: auto;
+  width: 72%;
+  padding-top: 1.50em;*/
+}
+
+
+/*Episode 4*/
+h6{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 30px;
+  color:#935e38;
+  margin: auto;
+  width: 73%;
+  padding-top: 1.50em;*/
+}
