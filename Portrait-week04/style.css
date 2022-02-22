@@ -1,0 +1,38 @@
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #105E26;
+}
+
+.kImg{
+  width:300;
+  height:300;
+  padding-left:15em;
+}
+
+.kImg2{
+  width:300;
+  height:300;
+  padding-left:20em;
+}
+
+.iImg{
+  width:300;
+  height:300;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.mImg{
+  width:700;
+  height:450;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
