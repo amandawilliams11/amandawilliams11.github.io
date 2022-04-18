@@ -1,0 +1,28 @@
+body{
+  background-color: #971d31;
+}
+
+h1{
+  font-family: 'Anybody';
+  font-size: 80px;
+  padding-top: 1em;
+}
+
+.start{
+  font-family: 'Anybody';
+  font-size: 40px;
+  color: #bc0408;
+  font-weight: bolder;
+  padding-top: 10em;
+}
+
+h3{
+  font-family: 'Anybody';
+  font-size: 60px;
+  padding-top: 0.5em;
+}
+
+.genre{
+  height: 300;
+  width: 300;
+}
