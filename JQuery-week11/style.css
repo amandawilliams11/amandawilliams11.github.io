@@ -17,7 +17,7 @@ h1{
 }
 
 h3{
-  font-family: 'Anybody';
+  font-family: 'Comfortaa';
   font-size: 60px;
   padding-top: 0.5em;
 }
@@ -25,4 +25,21 @@ h3{
 .genre{
   height: 300;
   width: 300;
+}
+
+.music{
+  height: 300;
+  width: 300;
+}
+
+.col-sm{
+  font-family: 'Bungee Shade';
+  color:#000000;
+}
+
+.artist{
+  font-family:'Poppins', sans-serif;
+  font-size: 30px;
+  color: #ea443e;
+
 }
