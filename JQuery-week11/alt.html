@@ -5,6 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 
     <link href="https://origin.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://origin.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -12,33 +14,59 @@
   </head>
 
   <body>
-    <h3><center> Which alternative artist do you like the most!? </center></h3>
+    <h3><center> Which pop artist do you like the most? </center></h3>
+
 
     <div class="container">
       <div class="row"> <center>
+        <iframe class="music" src="https://open.spotify.com/embed/track/1SC5rEoYDGUK4NfG82494W?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
+        <iframe class="music" src="https://open.spotify.com/embed/track/2gTdDMpNxIRFSiu7HutMCg?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-        <iframe class="music" src="https://open.spotify.com/embed/track/51NFxnQvaosfDDutk0tams?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe class="music" src="https://open.spotify.com/embed/track/7oOOI85fVQvVnK5ynNMdW7?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-        <iframe class="music" src="https://open.spotify.com/embed/track/2tGvwE8GcFKwNdAXMnlbfl?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-         <iframe class="music" src="https://open.spotify.com/embed/track/6SpLc7EXZIPpy0sVko0aoU?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-          <iframe class="music" src="https://open.spotify.com/embed/track/6i0V12jOa3mr6uu4WYhUBr?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-
-        <div class="container">
-          <div class="row"> <center>
-            <a class="artist" href="billie.html" style="text-decoration:none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Billie Eillish</a>
-
-            <a class="artist" href="olivia.html" style="text-decoration:none">&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Olivia Rodrigo</a>
-
-            <a class="artist" href="paramore.html" style="text-decoration:none">&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paramore</a>
-
-            <a class="artist" href="twentyonepilots.html" style="text-decoration:none">&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twenty One Pilots</a>
+        <iframe class="music" src="https://open.spotify.com/embed/track/6I9VzXrHxO9rA9A5euc8Ak?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
       </center> </div>
     </div>
+
+
+    <script type = "text/javascript"
+      src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+
+    <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+
+            $("#hide").click(function () {
+               $(".container").hide( 1000 );
+            });
+
+            $("#show").click(function () {
+               $(".container").show( 1000 );
+            });
+
+        
+         });
+      </script>
+
+
+    <div class="container">
+      <div class="row"> <center>
+        <a class="artist" href="lilnas.html" style="text-decoration:none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lil Nas X</a>
+
+        <a class="artist" href="machine.html" style="text-decoration:none">&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machine Gun Kelly</a>
+
+        <a class="artist" href="michael.html" style="text-decoration:none">&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Jackson</a>
+
+        <a class="artist" href="britney.html" style="text-decoration:none">&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Britney Spears</a>
+
+      </center> </div>
+    </div>
+
+      <input id = "hide" type = "button" value = "Hide" /> 
+      <input id = "show" type = "button" value = "Show" />
+
   </body>
 
 </html>
