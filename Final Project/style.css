@@ -28,6 +28,13 @@
   text-align: center;
 }
 
+.about{
+  font-family: 'Krona One', sans-serif;
+  color: #ED6992;
+  font-size: 20px;
+  padding-top: 5em;
+}
+
 /*
 media query for mobile screens  */
 @media screen and (max-width: 600px) {
