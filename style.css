@@ -23,13 +23,18 @@ h1{
 }
 
 .netArtImg{
-  height: 250px;
+  height: 260px;
   width: 500px;
 }
 
 .posterImg{
-  height:260;
-  width:500;
+  height:260px;
+  width:500px;
+}
+
+.buttonImg{
+  height:260px;
+  width:500px;
 }
 
 .specialLink3{
