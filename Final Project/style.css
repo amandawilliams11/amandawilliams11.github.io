@@ -54,6 +54,17 @@
   padding-right: 10em;
 }
 
+.side1{
+  padding-left: 5em;
+  position: relative;
+  top: -100px;
+}
+
+.mSoon{
+  position: relative;
+  top: -50px;
+}
+
 /*
 media query for mobile screens  */
 @media screen and (max-width: 600px) {
@@ -286,13 +297,13 @@ Conts */
 
 
 /* setting font and color for the big title */
-#bigCon{
+.bigCon{
   font-family: 'Krona One', sans-serif;
   color: #ED6992;
 }
 
 /* setting animation for the smaller text */
-#mSoon{
+.mSoon{
   animation-duration: 2s;
   animation-name: slidein;
 }
@@ -301,13 +312,13 @@ Conts */
 /* media query for larger screens */
 @media screen and (min-width: 601px) {
   /* setting big text spacing and font size */
-  #bigCon {
+  .bigCon {
     margin-top:20%;
     margin-left:10%;
     font-size: 700%;
   }
   /* setting smaller text spacing and font size */
-  #mSoon{
+  .mSoon{
     margin-left:10%;
     font-size: 450%;
   }
@@ -327,12 +338,12 @@ Conts */
 
 /* all same but for mobile screens */
 @media screen and (max-width: 600px) {
-  #bigCon {
+  .bigCon {
     margin-top:50%;
     margin-left:6%;
     font-size: 270%;
   }
-  #mSoon{
+  .mSoon{
     margin-left:6%;
     font-size: 150%;
   }
